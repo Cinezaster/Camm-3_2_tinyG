@@ -1,0 +1,91 @@
+(.../Documents/eagle/pcb-gcode/pcb-gcode.ulp)
+(Copyright 2005 - 2012 by John Johnson)
+(See readme.txt for licensing terms.)
+(This file generated from the board:)
+(.../AC-Motor control/ZeroCrossSimple.brd)
+(Current profile is .../eagle/pcb-gcode/profiles/emc.pp  )
+(This file generated 13/02/15 18:17)
+(Settings from pcb-machine.h)
+(spindle on time = 3.0000)
+(spindle speed = 20000.0000)
+(tool change at 0.0000 0.0000 25.4000 )
+(feed rate xy = F0.00  )
+(feed rate z  = F508.00 )
+(Z Axis Settings)
+(  High     Up        Down     Drill)
+(12.7000 	2.5400 	-0.1778 	-0.8128 )
+(Settings from pcb-defaults.h)
+(isolate min = 0.0254)
+(isolate max = 0.5080)
+(isolate step = 0.1270)
+(Generated top outlines, top drill, )
+(Unit of measure: mm)
+( Tool|       Size       |  Min Sub |  Max Sub |   Count )
+( T01 | 1.100mm 0.0433in | 0.0000in | 0.0000in |       0 )
+( T02 | 1.194mm 0.0470in | 0.0000in | 0.0000in |       0 )
+( T03 | 1.700mm 0.0669in | 0.0000in | 0.0000in |       0 )
+( T04 | 3.200mm 0.1260in | 0.0000in | 0.0000in |       0 )
+(Metric Mode)
+G21
+(Absolute Coordinates)
+G90
+S20000
+G00 Z12.7000 
+G00 X0.0000 Y0.0000 
+M03
+G04 P3.000000
+M05
+G00 Z25.4000 
+M06 T01 (1.1000 )
+G01 Z0.0000 F508.00 
+M06 
+G00 Z2.5400 
+M03
+G04 P3.000000
+G82 X17.5320 Y1.7010 Z-0.8128 F508.00 R2.5400 P1.000000
+G82 X20.0720 Y9.3210 
+G82 X35.3120 Y9.3210 
+G82 X35.3120 Y1.7010 
+M05
+G00 Z25.4000 
+G00 X0.0000 Y0.0000 
+M06 T02 (1.1938 )
+G01 Z0.0000 F508.00 
+M06 
+G00 Z2.5400 
+M03
+G04 P3.000000
+G82 X5.1300 Y3.9000 Z-0.8128 F508.00 R2.5400 P1.000000
+G82 X5.1300 Y8.9000 
+G82 X5.1300 Y13.9000 
+G82 X5.1300 Y18.9000 
+M05
+G00 Z25.4000 
+G00 X0.0000 Y0.0000 
+M06 T03 (1.7000 )
+G01 Z0.0000 F508.00 
+M06 
+G00 Z2.5400 
+M03
+G04 P3.000000
+G82 X45.0000 Y5.1600 Z-0.8128 F508.00 R2.5400 P1.000000
+G82 X45.0000 Y9.1200 
+G82 X45.0000 Y13.0800 
+G82 X45.0000 Y17.0400 
+M05
+G00 Z25.4000 
+G00 X0.0000 Y0.0000 
+M06 T04 (3.2000 )
+G01 Z0.0000 F508.00 
+M06 
+G00 Z2.5400 
+M03
+G04 P3.000000
+G82 X2.0000 Y-3.0000 Z-0.8128 F508.00 R2.5400 P1.000000
+G82 X2.0000 Y26.0000 
+G82 X49.0000 Y26.0000 
+G82 X49.0000 Y-3.1000 
+T01 
+G00 Z12.7000 
+M05
+M02

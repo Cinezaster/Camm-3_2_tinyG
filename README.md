@@ -13,3 +13,6 @@ Shows the status of the CNC {x,y,z,spindle speed, feedrate}
 
 ## Kill switch
 A box with a big red kill switch, connected to reset.
+
+## Auto height
+Connect Z-min to GND.

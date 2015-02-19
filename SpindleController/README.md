@@ -11,6 +11,7 @@
 ![Board](/SpindleController/board/board.png)
 * H11AA1S AC opto coupler to detect the zero point crossing
 * SDV2415R random triggered Solid State Relay
+* R1 & R2 22K Ohm 2Watt resistors
 
 ## Arduino Leonardo pins
 * Zero Crossing input --> Pin 3 (interrupt 0)

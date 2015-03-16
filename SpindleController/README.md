@@ -37,3 +37,6 @@
 7. print speed to screen over spi
 8. go back to 4 and repeat until Spindle ON/OFF goes LOW
 
+## Zero Crossing detection
+Peak at 3V has a measured width of 400 micro seconds 
+

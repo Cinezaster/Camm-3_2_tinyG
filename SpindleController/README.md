@@ -39,4 +39,3 @@
 
 ## Zero Crossing detection
 Peak at 3V has a measured width of 400 micro seconds 
-

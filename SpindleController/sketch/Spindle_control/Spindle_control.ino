@@ -6,6 +6,9 @@ It then keeps the motor on speed through a PID control.
 
 Based on http://playground.arduino.cc/Code/ACPhaseControl
 
+!!!!!!IMPORTANT !!!!!!
+This script will only work with an arduino Leonardo due to interupts
+
 */
 
 /* By Toon Nelissen aka Cinezaster */
@@ -133,7 +136,7 @@ void spindle_speed_pulse()
 	if(spindle_speed_read_count == 8)
 	{
 		spindle_speed_read_count = 0;
-		int spindle_one_rotation_time = micros() - spindle_speed_start_measurment_time;
+		spindle_one_rotation_time = micros() - spindle_speed_start_measurment_time;
 		spindle_speed_start_measurment_time = micros();
 	}
 }
@@ -210,6 +213,9 @@ void setup ()
 {
 	Serial.begin(115200);
 	while (!Serial) ;
+
+	Serial.println("Spindle controller V1");
+	Serial.println("by toon");
 
 	display.begin(SSD1306_SWITCHCAPVCC);
 	display_waiting();

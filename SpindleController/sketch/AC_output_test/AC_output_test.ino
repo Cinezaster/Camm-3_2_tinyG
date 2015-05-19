@@ -59,5 +59,4 @@ void trigger_AC_pin () {
 		digitalWrite(AC_OUTPUT_PIN,HIGH);
 	    Timer1.stop();
 	}
-	
 }

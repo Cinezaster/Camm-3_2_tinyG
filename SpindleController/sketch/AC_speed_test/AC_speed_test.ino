@@ -15,7 +15,7 @@ const float pi = 3.14159;
 double wait = 3276700000;
 volatile int spindle_speed_read_count = 0;
 volatile long spindle_speed_start_measurment_time;
-long spindle_one_rotation_time = 0;
+volatile long spindle_one_rotation_time = 0;
 int trigger = 0;
 
 void setup()

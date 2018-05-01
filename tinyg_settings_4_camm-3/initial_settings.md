@@ -1,4 +1,4 @@
-##map motor to axix
+##map motor to axis
 ```
 $1ma=1
 $2ma=0
@@ -60,9 +60,9 @@ $zvm=1000
 
 ##feed rate Max
 ```
-$xfr=800
-$yfr=800
-$zfr=400
+$xfr=500
+$yfr=500
+$zfr=300
 ```
 
 ##jerk Max
